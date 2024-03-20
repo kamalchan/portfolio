@@ -17,7 +17,7 @@ const Nav = () => {
     <div>
       <div id="navigation">
         <ul>
-          <Link to="/myportfolio">
+          <Link to="/">
             <li data-aos="zoom-in">
               <img src={Home} alt="home" />
             </li>
