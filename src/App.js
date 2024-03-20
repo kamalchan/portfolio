@@ -31,8 +31,8 @@ function App() {
       <Work/>
       <Contact/> */}
       <Routes>
-        <Route exact="true" path="/myportfolio" element={<Home />}></Route>
-        <Route path="/myportfolio" element={<Home />}></Route>
+        <Route exact="true" path="/" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/services" element={<Services />}></Route>
         <Route path="/work" element={<Work />}></Route>
