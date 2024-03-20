@@ -109,15 +109,18 @@ var mailToLink = `mailto:kamalysk1997@gmail.com?subject=${values.text}&body=` + 
                 className="form-control"
                 name="user_subject"
                 required
-              />
-              <textarea
-                name="user_message"
-                rows="4"
-                className="form-control"
-                placeholder="Your Message"
-                onChange={(e) => setValues({ ...values, usermessage: e.target.value })}
-                required
-              ></textarea>
+              /><textarea
+              name="user_message"
+              rows="4"
+              className="form-control"
+              placeholder="Your Message"
+              onChange={(e) => {
+                setValues({ ...values, usermessage: e.target.value });
+                e.target.classList.toggle('black-text', e.target.value === '');
+              }}
+              required
+            ></textarea>
+            
               <br />
               <button type="submit" className="btn btn-primary">
                 Send

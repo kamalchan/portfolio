@@ -19,6 +19,7 @@
 .form-control:focus {
   box-shadow: none !important;
   border-color: rgba(255, 255, 255, 0.2) !important;
+
 }
 #contact .btn {
   background-color: #fff !important;
@@ -38,3 +39,12 @@
 .abdc{
   background-color: #000 !important;
 }
+
+.black-text {
+  color: black !important;
+}
+
+.form-control:not(:placeholder-shown) {
+  color: white !important;
+}
+
