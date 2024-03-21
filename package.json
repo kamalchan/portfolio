@@ -1,7 +1,7 @@
 {
   "name": "portfoliowebsite",
   "version": "0.1.0",
-  "homepage": "https://poojagarva28.github.io/myportfolio/",
+  "homepage": " ",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -49,7 +49,7 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "description": "Portfolio by Pooja Garva :))",
+  "description": "Portfolio by Kamal chan :))",
   "main": "index.js",
   "keywords": [],
   "author": "",

@@ -42,11 +42,11 @@ const Nav = () => {
               <img src={Education} alt="education" />
             </li>
           </Link>
-          <Link to="/projects">
+          {/* <Link to="/p">
             <li data-aos="zoom-in">
               <img src={Jsprojects} alt="jsprojects" />
             </li>
-          </Link>
+          </Link> */}
           <Link to="/portfolio">
             <li data-aos="zoom-in">
               <img src={Projects} alt="portfolio" />
@@ -62,7 +62,7 @@ const Nav = () => {
 
       <div id="navigation-mob">
         <h1 data-aos="fade-in">
-          <Link to="/myportfolio">kamalanathan</Link>
+          <Link to="/">kamalanathan</Link>
         </h1>
         <i
           data-aos="fade-in"
@@ -76,7 +76,7 @@ const Nav = () => {
             data-aos-duration="700"
             onClick={() => setVisible(!visible)}
           >
-            <Link to="/myportfolio">
+            <Link to="/">
               <li>Home</li>
             </Link>
             <Link to="/about">
@@ -91,9 +91,9 @@ const Nav = () => {
             <Link to="/education">
               <li>Education</li>
             </Link>
-            <Link to="/projects">
+            {/* <Link to="/projects">
               <li>Projects</li>
-            </Link>
+            </Link> */}
             <Link to="/portfolio">
               <li>Portfolio</li>
             </Link>
