@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import profileimg from "../assets/img/kamal.jpeg";
-import Pdf from "../assets/pdf/Kamalanathan ys_Resume.pdf";
+import Pdf from "../assets/pdf/Kamalchan.pdf";
 import { Link } from "react-router-dom";
 import Linkedinicon from "../assets/img/socialicons/linkedin.png";
 import Instagramicon from "../assets/img/socialicons/instagram.png";
@@ -23,7 +23,7 @@ const Home = () => {
               />
               <div className="socialmedia">
                 <a
-                  href="https://www.linkedin.com/www.linkedin.com/in/kamalanathan-subramanian-b88b50188/poojagarva/"
+                  href="https://www.linkedin.com/www.linkedin.com/in/kamalanathan-subramanian-b88b50188"
                   target="_blank"
                   rel="noreferrer"
                 >
